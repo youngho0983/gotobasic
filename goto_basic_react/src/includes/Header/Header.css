@@ -1,0 +1,104 @@
+.menu-item {
+    position: relative;
+}
+
+.submenu {
+    display: none;              /* 기본은 숨김 */
+    position: absolute;
+    top: 100%;                  /* 부모 li 바로 아래 붙음 */
+    left: 0;
+    background-color: #eee;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    z-index: 1000;
+}
+
+.menu-item:hover > .submenu {
+    display: block;             /* hover 시 보이게 */
+}
+
+
+/* Header 전체 */
+.App-header {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100px;
+}
+
+/* 로고 영역 */
+.logo-area {
+    background-color: aqua;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* 메뉴 영역 */
+.header-items {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.header-items > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 메뉴 아이템 */
+.menu-item {
+    position: relative;
+}
+
+.menu-item > span {
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+/* 드롭다운 서브메뉴 */
+.submenu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #eee;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.menu-item:hover > .submenu {
+    display: block;
+}
+
+/* 사용자 메뉴 */
+.useArea {
+    margin-left: auto;
+}
+
+.useArea > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.useArea li {
+    cursor: pointer;
+}
