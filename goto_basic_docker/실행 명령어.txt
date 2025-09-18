@@ -1,0 +1,1 @@
+docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config test-build
