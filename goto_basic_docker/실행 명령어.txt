@@ -1,1 +1,9 @@
-docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config test-build
+docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config spring-docker
+
+docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config -v c:/Programming/secret/envs/cloneAndRun.sh:/app/cloneAndRun.sh spring-docker
+
+
+docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config -v c:/Programming/secret/envs/cloneAndRun.sh:/app/cloneAndRun.sh -it spring-docker bash
+
+
+docker run -d -p 8080:8080 -v C:/Programming/secret/envs:/app/config -v c:/Programming/secret/envs/cloneAndRun.sh:/app/cloneAndRun.sh docker-spring

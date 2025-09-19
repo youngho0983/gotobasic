@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        
+        stage('goodbye'){
+            steps {
+                echo 'good bye'
+            }
+        }
+    }
+    
+}
+
+간단하게 stage 사용 << pipeline visual 플러그인 설치 하자구 친구

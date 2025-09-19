@@ -15,4 +15,6 @@ WORKDIR /app/goto_basic_spring/gotobasic
 
 RUN mvn clean package -DskipTests
 
-CMD ["java", "-jar", "/app/goto_basic_spring/gotobasic/target/gotobasic-0.0.1-SNAPSHOT.jar", "--spring.config.location=/app/config/application.properties"]
+WORKDIR /app/config
+
+CMD sh -c "/app/cloneAndRun.sh"

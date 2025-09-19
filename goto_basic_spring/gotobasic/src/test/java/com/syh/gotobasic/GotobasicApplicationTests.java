@@ -10,4 +10,5 @@ class GotobasicApplicationTests {
 	void contextLoads() {
 	}
 
+
 }
