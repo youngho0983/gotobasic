@@ -8,7 +8,9 @@ class GotobasicApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assert true;
 	}
 
 
+	
 }

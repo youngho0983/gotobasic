@@ -252,3 +252,5 @@ sketch
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,react,intellij,webstorm
 
 *.env
+goto_basic_spring/.idea/misc.xml
+goto_basic_spring/.idea/workspace.xml
