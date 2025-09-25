@@ -1,13 +1,12 @@
 import React from "react";
 import "./Header.css";
+import {Link} from "react-router-dom";
 
 export default () => {
     return (
         <header className="App-header">
-            {/* 로고 영역 */}
             <div className="logo-area">logoArea</div>
 
-            {/* 메뉴 영역 */}
             <div className="header-items">
                 <ul>
                     <li className="menu-item">
@@ -52,12 +51,11 @@ export default () => {
                 </ul>
             </div>
 
-            {/* 사용자 메뉴 영역 */}
             <div className="useArea">
                 <ul>
-                    <li>login</li>
+                    <li><Link to={"/auth/login"}>login</Link></li>
                     <li>logout</li>
-                    <li>signin</li>
+                    <li><Link to={"/auth/signin"}>signin</Link></li>
                     <li>userInfo</li>
                 </ul>
             </div>
