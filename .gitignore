@@ -254,3 +254,9 @@ sketch
 *.env
 goto_basic_spring/.idea/misc.xml
 goto_basic_spring/.idea/workspace.xml
+goto_basic_fastAPI/AIServerProject/.idea/AIServerProject.iml
+goto_basic_fastAPI/AIServerProject/.idea/misc.xml
+goto_basic_fastAPI/AIServerProject/.idea/modules.xml
+goto_basic_fastAPI/AIServerProject/.idea/vcs.xml
+goto_basic_fastAPI/AIServerProject/.idea/inspectionProfiles/profiles_settings.xml
+goto_basic_fastAPI/AIServerProject/__pycache__/main.cpython-310.pyc
