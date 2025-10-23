@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default () => {
     return (
         <header className="App-header">
-            <div className="logo-area">logoArea</div>
+            <Link to={"/"} className="logo-area">logoArea</Link>
 
             <div className="header-items">
                 <ul>
